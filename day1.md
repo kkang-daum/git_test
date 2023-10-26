@@ -95,3 +95,15 @@
 * -f 를 추가하면 그 파일일 index 에 포함되든 안되든 무조건, 강제적으로 삭제.. 
 * git명령으로 파일을 삭제하면 실제 파일 삭제와 동시에 그 파일이 삭제되었다는 정보가 index 에 포함이 된다.. commit 만 시키면 된다..
 * 편리성 차원에서 git 명령으로 삭제.. 삭제 + add
+
+## restore, w/d 복원
+* \>git restore --source=hash *
+* restore 로 복원하면 w/d 는 복원되지만 그렇다고 head 가 변경되지는 않는다. 즉 commit 저장 객체들은 그대로 유지된다.
+* restore 로 복원시키는 것은 commit 정보는 그대로 유지한 상태에서.. w/d 만 이전 상태로 만들고자 할때 사용..
+
+## reset, 복원
+* \>git reset hash
+* reset 은 커밋 정보 변경이다. 특정 hash 까지 커밋 정보를 날려버려서 HEAD 가 지칭하는 커밋을 바꾸는 명령이다.
+* W/D 까지 변경되지는 않는다. 
+* \>git reset --hard hash
+* commit 조정되면서.. head 가 지칭하는 commit 으로.. w/d 도 변경.. 
