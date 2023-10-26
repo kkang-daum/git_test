@@ -111,3 +111,9 @@
 ## amend 
 * 새로운 commit 을 발생시킬때, 이전 commit 정보를 덥어쓰기 하고 싶은경우..
 * \>git commit --amend -m "aaa"
+
+## reflog
+* reset 으로 삭제된 commit 정보가 유지되고 있다.. 그 정보까지 보고 싶을 때.. 
+* 그 정보로 복원도 가능하다.. 
+* \>git reflog
+* \>git reset --hard hash
