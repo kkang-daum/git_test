@@ -107,3 +107,7 @@
 * W/D 까지 변경되지는 않는다. 
 * \>git reset --hard hash
 * commit 조정되면서.. head 가 지칭하는 commit 으로.. w/d 도 변경.. 
+
+## amend 
+* 새로운 commit 을 발생시킬때, 이전 commit 정보를 덥어쓰기 하고 싶은경우..
+* \>git commit --amend -m "aaa"
