@@ -8,12 +8,13 @@
 * branch 이동.. 
 * \>git switch dev1
   
-  * 모든 브랜치의 커밋 로그
-  * \>git log --oneline --graph --all
+* 모든 브랜치의 커밋 로그
+* \>git log --oneline --graph --all
     
-  * 병합 (merge)
-  * \>git merge dev2
+* 병합 (merge)
+* \>git merge dev2
   
-  * 브랜치 삭제..
-  * \>git branch -d dev2
+* 브랜치 삭제..
+* \>git branch -d dev2
   
+*
