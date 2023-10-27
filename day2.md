@@ -46,3 +46,14 @@
 
 * remote 삭제
 * \>git remote rm test1
+
+
+## github 인증키 발급
+* 프사 -> settings -> developer setting -> personal access tokens -> tokens -> generate new token
+
+* 완성된 url 을 remote 로 등록..
+
+## push
+* local commit 정보를 github 에 업로드..
+* \>git push -u origin main
+* main 브랜치의 내용을 origin remote 에 올리겠다.. -u 는 최초에 한번만 줘도 되고.. 
